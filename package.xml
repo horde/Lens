@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-03-20</date>
+ <date>2017-10-17</date>
  <version>
   <release>1.0.0beta1</release>
   <api>1.0.0</api>
@@ -25,22 +25,16 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <dir name="doc">
-    <dir name="Horde">
-     <dir name="Lens">
-      <file name="COPYING" role="doc" />
-     </dir> <!-- /doc/Horde/Lens -->
-    </dir> <!-- /doc/Horde -->
-   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="Lens">
       <file name="Interface.php" role="php" />
       <file name="Iterator.php" role="php" />
-     </dir> <!-- //lib/Horde/Lens -->
+     </dir> <!-- /lib/Horde/Lens -->
      <file name="Lens.php" role="php" />
-    </dir> <!-- //lib/Horde -->
-   </dir> <!-- //lib -->
+    </dir> <!-- /lib/Horde -->
+   </dir> <!-- /lib -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -57,10 +51,10 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/Lens/COPYING" />
    <install as="Horde/Lens.php" name="lib/Horde/Lens.php" />
    <install as="Horde/Lens/Interface.php" name="lib/Horde/Lens/Interface.php" />
    <install as="Horde/Lens/Iterator.php" name="lib/Horde/Lens/Iterator.php" />
+   <install as="LICENSE" name="LICENSE" />
   </filelist>
  </phprelease>
  <changelog>
