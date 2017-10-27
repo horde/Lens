@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-lens",
+    "name": "horde/lens",
     "description": "Horde Lens decorating iterator/flyweight implementation",
     "type": "library",
     "homepage": "https://pear.horde.org",
@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^5.3"
+        "php": "^5.3 || ^7"
     },
     "replace": {
         "pear-pear.horde.org/Horde_Lens": "1.*",
