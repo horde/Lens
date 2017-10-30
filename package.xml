@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-03-20</date>
+ <date>2017-10-30</date>
  <version>
   <release>1.0.0beta1</release>
   <api>1.0.0</api>
@@ -28,6 +28,7 @@
    <dir name="doc">
     <dir name="Horde">
      <dir name="Lens">
+      <file name="CHANGES" role="doc" />
       <file name="COPYING" role="doc" />
      </dir> <!-- /doc/Horde/Lens -->
     </dir> <!-- /doc/Horde -->
@@ -57,6 +58,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Lens/CHANGES" />
    <install as="COPYING" name="doc/Horde/Lens/COPYING" />
    <install as="Horde/Lens.php" name="lib/Horde/Lens.php" />
    <install as="Horde/Lens/Interface.php" name="lib/Horde/Lens/Interface.php" />
