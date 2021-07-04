@@ -3,14 +3,14 @@
  <name>Horde_Lens</name>
  <channel>pear.horde.org</channel>
  <summary>Lens decorating iterator/flyweight library</summary>
- <description>A way of wrapping iterators to avoid looping over them multiple times, using a single decorator object (the "lens") instead of creating one decorator for every element.</description>
+ <description>A library for wrapping iterators to avoid looping over them multiple times, using a single decorator object (the "lens") instead of creating one decorator for every element.</description>
  <lead>
   <name>Chuck Hagenbuch</name>
   <user>chuck</user>
   <email>chuck@horde.org</email>
-  <active>yes</active>
+  <active>no</active>
  </lead>
- <date>2017-11-11</date>
+ <date>2021-07-04</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0</api>
@@ -21,7 +21,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Mark PHP 7 as supported.
+* [rla] Package for H6 / composer installer. This libary was designed for Horde 4.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -47,7 +47,7 @@
  <dependencies>
   <required>
    <php>
-    <min>5.3.0</min>
+    <min>7.0.0</min>
     <max>8.0.0alpha1</max>
     <exclude>8.0.0alpha1</exclude>
    </php>
@@ -75,10 +75,10 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-11-11</date>
+   <date>2021-07-04</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-* [jan] Mark PHP 7 as supported.
+* [rla] Package for H6 / composer installer. This libary was designed for Horde 4.
    </notes>
   </release>
  </changelog>

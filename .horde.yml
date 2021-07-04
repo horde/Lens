@@ -3,9 +3,9 @@ id: Lens
 name: Lens
 full: Lens decorating iterator/flyweight library
 description: >-
-  A library for wrapping iterators to avoid looping over them multiple times, using a
-  single decorator object (the "lens") instead of creating one decorator for
-  every element.
+  A library for wrapping iterators to avoid looping over them multiple times,
+  using a single decorator object (the "lens") instead of creating one decorator
+  for every element.
 list: dev
 type: library
 authors:
@@ -26,4 +26,4 @@ license:
   uri: http://www.horde.org/licenses/lgpl21
 dependencies:
   required:
-    php: ^5.3 || ^7
+    php: ^7
